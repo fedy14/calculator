@@ -4,8 +4,9 @@ function plus (){
     i= nat.charAt(act.length-1);
     if (i == "+" || i == "-" || i == "*" || i == "/"){
         nat = nat.substring(0,nat.length-1);
+
     }else{
-        
+        fad.fedy.value  += "+";
     }
         
 }
